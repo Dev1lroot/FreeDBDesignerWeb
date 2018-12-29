@@ -4,7 +4,7 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
 <h2>"DOCUMENTATION"</h2><br>
 <br>
 <h3>Global variables</h3>
-<p>
+<pre>
 <br>&nbsp;&nbsp;    dependencies  (array)
 <br>&nbsp;&nbsp;    //  This variable is an array of dependencies like:
 <br>&nbsp;&nbsp;      ```
@@ -55,5 +55,5 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
 <br>    //  Removes table object
 <br>    removeField(obj)
 <br>    //  Removes field object and dependencies including this field
-</p>
+</pre>
     
