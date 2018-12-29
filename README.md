@@ -5,16 +5,16 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
 <br>
 <h3>Global variables</h3>
 <p>
-<br>    dependencies  (array)
-<br>    //  This variable is an array of dependencies like:
-<br>      ```
-<br>      dependence = {
-<br>			  from:       //Primary Key Table
-<br>			  fromitem:   //Primary Key Field
-<br>			  to:         //Destination Table
-<br>			  toitem:     //Destination Field
-<br>      }
-<br>      ```
+<br>&nbsp;&nbsp;    dependencies  (array)
+<br>&nbsp;&nbsp;    //  This variable is an array of dependencies like:
+<br>&nbsp;&nbsp;      ```
+<br>&nbsp;&nbsp;      dependence = {
+<br>&nbsp;&nbsp;&nbsp;			  from:       //Primary Key Table
+<br>&nbsp;&nbsp;&nbsp;			  fromitem:   //Primary Key Field
+<br>&nbsp;&nbsp;&nbsp;			  to:         //Destination Table
+<br>&nbsp;&nbsp;&nbsp;			  toitem:     //Destination Field
+<br>&nbsp;&nbsp;      }
+<br>&nbsp;&nbsp;      ```
 <br>    currentTable  (string)
 <br>    //  This variable is containing the current selected table (that red table)
 <br>      
