@@ -1,9 +1,9 @@
 # FreeDBDesignerWeb
 Free Visual Database Designer on JQuery, JQueryUI and JS
-
-"DOCUMENTATION"
-
-Global variables
+<br>
+"DOCUMENTATION"<br>
+<br>
+Global variables<br>
     dependencies  (array)
     //  This variable is an array of dependencies like:
       ```
