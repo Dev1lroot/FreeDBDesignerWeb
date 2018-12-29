@@ -1,9 +1,10 @@
 # FreeDBDesignerWeb
-Free Visual Database Designer on JQuery, JQueryUI and JS
+Free Visual Database Designer on JQuery, JQueryUI and JS<br>
 <br>
-"DOCUMENTATION"<br>
+<h2>"DOCUMENTATION"</h2><br>
 <br>
-Global variables<br>
+<h3>Global variables</h3>
+<p>
     dependencies  (array)
     //  This variable is an array of dependencies like:
       ```
@@ -18,12 +19,14 @@ Global variables<br>
     //  This variable is containing the current selected table (that red table)
       
     dataTypes     (array)
-    //  This variable is an array with the data types that supported in destination MySQL Tool/Project where will do you use it
+    /*  This variable is an array with the data types that supported 
+    in destination MySQL Tool/Project where will do you use it */
 
     canvas        (canvas) 
     //  The variable with canvas.
-
-Universal Functions
+</p>
+<h3>Universal Functions</h3>
+<p>
     createTable('table_name')
     //  Creates table with name 'table_name'
       
@@ -34,7 +37,8 @@ Universal Functions
     //  Creates empty field in table 'table_name'
     
     createValue('table_name','field_name','field_type','field_size')
-    //  Creates field name 'field_name' in table 'table_name' with data type 'field_type' and characted limit 'field_size'
+    /*  Creates field name 'field_name' in table 'table_name' with 
+    data type 'field_type' and characted limit 'field_size' */
     
     getFields('table_name')
     //  Returns fields array from table 'table_name'
@@ -51,5 +55,5 @@ Universal Functions
     //  Removes table object
     removeField(obj)
     //  Removes field object and dependencies including this field
-    
+ </p>
     
