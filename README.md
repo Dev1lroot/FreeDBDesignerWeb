@@ -9,10 +9,10 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
 <br>&nbsp;&nbsp;    //  This variable is an array of dependencies like:
 <br>&nbsp;&nbsp;      ```
 <br>&nbsp;&nbsp;      dependence = {
-<br>&nbsp;&nbsp;&nbsp;			  from:       //Primary Key Table
-<br>&nbsp;&nbsp;&nbsp;			  fromitem:   //Primary Key Field
-<br>&nbsp;&nbsp;&nbsp;			  to:         //Destination Table
-<br>&nbsp;&nbsp;&nbsp;			  toitem:     //Destination Field
+<br>&nbsp;&nbsp;&nbsp;&nbsp;			  from:       //Primary Key Table
+<br>&nbsp;&nbsp;&nbsp;&nbsp;			  fromitem:   //Primary Key Field
+<br>&nbsp;&nbsp;&nbsp;&nbsp;			  to:         //Destination Table
+<br>&nbsp;&nbsp;&nbsp;&nbsp;			  toitem:     //Destination Field
 <br>&nbsp;&nbsp;      }
 <br>&nbsp;&nbsp;      ```
 <br>    currentTable  (string)
