@@ -6,24 +6,24 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
 <h3>Global variables</h3>
 <pre>
     dependencies  (array)
-    //  This variable is an array of dependencies like:
-      ```
-      dependence = {
-			  from:       //Primary Key Table
-			  fromitem:   //Primary Key Field
-			  to:         //Destination Table
-			  toitem:     //Destination Field
-      }
-      ```
+    <pre style="color:#38d635">//  This variable is an array of dependencies like:</pre>
+    ```
+    dependence = {
+        from:       //Primary Key Table
+	fromitem:   //Primary Key Field
+        to:         //Destination Table
+        toitem:     //Destination Field
+    }
+    ```
     currentTable  (string)
-    //  This variable is containing the current selected table (that red table)
+    <pre style="color:#38d635">//  This variable is containing the current selected table (that red table)</pre>
       
     dataTypes     (array)
-    /*  This variable is an array with the data types that supported 
-    in destination MySQL Tool/Project where will do you use it */
+    <pre style="color:#38d635">/*  This variable is an array with the data types that supported 
+    in destination MySQL Tool/Project where will do you use it */</pre>
 
     canvas        (canvas) 
-    //  The variable with canvas.
+    <pre style="color:#38d635">//  The variable with canvas.</pre>
 </pre>
 <h3>Universal Functions</h3>
 <pre>
@@ -44,9 +44,9 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
     //  Returns fields array from table 'table_name'
     ```
     field = {
-      name:   //Field name
-      type:   //Field data type
-      size:   //Field character limit
+        name:   //Field name
+        type:   //Field data type
+        size:   //Field character limit
     }
     ```
     reorder(obj)
