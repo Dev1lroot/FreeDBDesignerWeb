@@ -6,7 +6,7 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
 <h3>Global variables</h3>
 <pre>
     dependencies  (array)
-    <pre style="color:#38d635">//  This variable is an array of dependencies like:</pre>
+    //  This variable is an array of dependencies like:
     ```
     dependence = {
         from:       //Primary Key Table
@@ -16,14 +16,14 @@ Free Visual Database Designer on JQuery, JQueryUI and JS<br>
     }
     ```
     currentTable  (string)
-    <pre style="color:#38d635">//  This variable is containing the current selected table (that red table)</pre>
-      
+    //  This variable is containing the current selected table (that red table)
+
     dataTypes     (array)
-    <pre style="color:#38d635">/*  This variable is an array with the data types that supported 
-    in destination MySQL Tool/Project where will do you use it */</pre>
+    /*  This variable is an array with the data types that supported 
+    in destination MySQL Tool/Project where will do you use it */
 
     canvas        (canvas) 
-    <pre style="color:#38d635">//  The variable with canvas.</pre>
+    //  The variable with canvas.
 </pre>
 <h3>Universal Functions</h3>
 <pre>
